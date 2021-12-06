@@ -1,6 +1,7 @@
 import HOC from "./HOC";
 import UseContext from "./UseContext";
 import UseEffect from "./UseEffect";
+import UseReducer from "./UseReducer";
 import UseState from "./UseState";
 
 function App() {
@@ -9,7 +10,8 @@ function App() {
       {/* <UseState /> */}
       {/* <UseEffect /> */}
       {/* <HOC /> */}
-      <UseContext />
+      {/* <UseContext /> */}
+      <UseReducer />
     </div>
   );
 }
