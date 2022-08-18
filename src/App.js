@@ -3,6 +3,7 @@ import UseContext from "./UseContext";
 import UseEffect from "./UseEffect";
 import UseReducer from "./UseReducer";
 import UseState from "./UseState";
+import Redux from "./Redux"
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       {/* <UseEffect /> */}
       {/* <HOC /> */}
       {/* <UseContext /> */}
-      <UseReducer />
+      {/* <UseReducer /> */}
+      <Redux />
     </div>
   );
 }
