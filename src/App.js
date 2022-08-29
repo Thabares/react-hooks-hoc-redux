@@ -4,6 +4,7 @@ import UseEffect from "./UseEffect";
 import UseReducer from "./UseReducer";
 import UseState from "./UseState";
 import Redux from "./Redux"
+import SimpleRedux from "./SimpleRedux"
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       {/* <HOC /> */}
       {/* <UseContext /> */}
       {/* <UseReducer /> */}
-      <Redux />
+      {/* <Redux /> */}
+      <SimpleRedux />
     </div>
   );
 }

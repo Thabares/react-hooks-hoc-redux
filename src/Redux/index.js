@@ -4,6 +4,7 @@ import store from "./redux/store"
 import CakeContainer from './components/CakeContainer'
 import HooksCakeContainer from './components/HooksCakeContainer'
 import IceCreamContainer from './components/IceCreamContainer'
+import BooksContainer from './components/BooksContainer'
 
 export default function index() {
     return (
@@ -11,6 +12,7 @@ export default function index() {
             <CakeContainer />
             <HooksCakeContainer />
             <IceCreamContainer />
+            <BooksContainer />
         </Provider>
     )
 }
