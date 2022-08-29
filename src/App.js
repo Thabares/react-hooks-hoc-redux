@@ -14,8 +14,8 @@ function App() {
       {/* <HOC /> */}
       {/* <UseContext /> */}
       {/* <UseReducer /> */}
-      {/* <Redux /> */}
-      <SimpleRedux />
+      <Redux />
+      {/* <SimpleRedux /> */}
     </div>
   );
 }
